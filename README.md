@@ -1,4 +1,4 @@
-# proyecto1_auto2
+# PROYECTO 1.
 # Análisis del proyecto: Predicción de trastornos de sueño
 
 ## 1. Descripción y contexto del problema
@@ -106,21 +106,9 @@ La evaluación se basa en métricas clave:
 - Los plots de resumen y de barras respaldan la importancia global de features.
 - Las dependencias de las tres variables top (`sleep_quality_score`, `cognitive_performance_score`, `stress_score`) confirman su influencia sobre la predicción.
 
-## 4. Evaluación crítica de la práctica de ciencia de datos
 
-### Lo que se hizo bien
-
-- Enfoque completo desde EDA hasta interpretabilidad.
-- Uso correcto de SMOTE en entrenamiento y escalado sin data leakage.
-- Evaluación con métricas apropiadas para desbalance de clases.
-- Uso de validación cruzada y análisis de umbral para toma de decisiones clínicas.
-- Interpretabilidad con SHAP, lo cual es clave para aplicaciones médicas.
-
-## 5. Conclusión
-
-El notebook presenta un análisis de datos y un pipeline de modelado adecuado para el problema de salud del sueño. La práctica general es sólida, aunque la evaluación científica mejoraría al separar un conjunto de validación o usar validación cruzada para elegir el umbral y al formalizar el preprocesamiento en un pipeline reproducible.
-
-Las gráficas del notebook respaldan los resultados clave:
+## 4. Conclusión
+Las gráficas respaldan los resultados clave:
 - Desbalance de clases y su corrección mediante SMOTE;
 - Distribuciones y outliers importantes en variables de sueño;
 - Correlaciones con la variable objetivo;
